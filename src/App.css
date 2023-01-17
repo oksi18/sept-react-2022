@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
-}
+.big-block {
+    background: yellow ;
+    display: flex;
+    padding: 10px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
+.block {
+    background: lightskyblue;
+    height: 300px;
+    display: block;
+    border-radius: 15px;
+    box-shadow: rgba(46, 78, 240, 0.4) 0 5px,
+    rgba(46, 85, 240, 0.3) 0 10px,
+    rgba(46, 91, 240, 0.2) 0 15px,
+    rgba(46, 114, 240, 0.1) 0 20px,
+    rgba(240, 46, 170, 0.05) 0 25px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
 }
+.title {
+    text-align: center;
+    font-family: "American Typewriter";
+    text-shadow: rgba(46, 78, 240, 0.4) 0 2px,
+    rgba(46, 85, 240, 0.3) 0 4px,
+    rgba(46, 91, 240, 0.2) 0 6px,
+    rgba(46, 114, 240, 0.1) 0 8px,
+    rgba(240, 46, 170, 0.05) 0 10px;;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
+.photo {
+    float: right;
+    height: 100px;
+    width: 100px;
+    padding-top: 0;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text {
+    padding: 10px;
+    columns: 2;
 }
